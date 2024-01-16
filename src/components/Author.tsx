@@ -12,7 +12,7 @@ const Author: React.FC<AuthorProps> = ({ author, portfolio }) => {
       <a className="text-pink-400" href={portfolio} target="_blank">
         {author}
       </a>{" "}
-      2023.
+      2024.
     </p>
   );
 };

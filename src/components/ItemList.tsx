@@ -6,19 +6,15 @@ import {
 } from "../utils/utils";
 import Item from "./Item";
 import { urls } from "../utils/routes";
-// import { useParams } from "react-router-dom";
 
 interface ItemListProps {
   data: GameData[];
-  // filter: boolean;
 }
 
 const ItemList: React.FC<ItemListProps> = ({ data }) => {
-  // const { game: gameUrl } = useParams();
-
   return (
     <>
-      <section className="flex flex-row flex-wrap justify-around w-full">
+      <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map((game) =>
           game.albums.map((album) => (
             <Item
@@ -28,6 +24,8 @@ const ItemList: React.FC<ItemListProps> = ({ data }) => {
               url={
                 urls.item +
                 "/" +
+                game.id +
+                "_" +
                 toUrlFormat(game.name) +
                 "_" +
                 toUrlFormat(album.name)
@@ -35,42 +33,6 @@ const ItemList: React.FC<ItemListProps> = ({ data }) => {
             />
           ))
         )}
-
-        {/* {filter
-          ? data.map(
-              (game) =>
-                toUrlFormat(game.name) === gameUrl &&
-                game.albums.map((album) => (
-                  <Item
-                    key={game.id + game.name + album.id + album.name}
-                    name={album.name}
-                    image={albumsImagesPath + album.image + imagesExtension}
-                    url={
-                      urls.item +
-                      "/" +
-                      toUrlFormat(game.name) +
-                      "_" +
-                      toUrlFormat(album.name)
-                    }
-                  />
-                ))
-            )
-          : data.map((game) =>
-              game.albums.map((album) => (
-                <Item
-                  key={game.id + game.name + album.id + album.name}
-                  name={album.name}
-                  image={albumsImagesPath + album.image + imagesExtension}
-                  url={
-                    urls.item +
-                    "/" +
-                    toUrlFormat(game.name) +
-                    "_" +
-                    toUrlFormat(album.name)
-                  }
-                />
-              ))
-            )} */}
       </section>
     </>
   );

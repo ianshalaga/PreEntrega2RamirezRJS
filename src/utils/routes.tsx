@@ -4,6 +4,8 @@ export const urls = {
   home: "/",
   category: "/albums",
   item: "/album",
+  cart: "/cart",
+  checkout: "/checkout",
 };
 
 export interface Route {
@@ -45,14 +47,3 @@ export const routes: Route[] = [
     },
   },
 ];
-
-// const toRoutesApp = (): Record<string, string> => {
-//   return routes.reduce((acc, route) => {
-//     const key = Object.keys(route)[0];
-//     const value = route[key].url;
-//     acc[key] = value;
-//     return acc;
-//   }, {} as Record<string, string>);
-// };
-
-// export const routesApp = toRoutesApp();

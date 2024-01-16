@@ -1,29 +1,21 @@
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-// import { useState } from "react";
-// import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { urls } from "../utils/routes";
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
+import cartIcon from "../assets/icons/cart.svg";
 
 const CartWidget = () => {
-  // const [counter, setCounter] = useState(0);
-  const counter = 0;
-
-  // const { album } = useParams();
+  const { itemsInCart } = useContext(CartContext);
 
   return (
     <div className="flex justify-center items-center">
-      {/* <p>{album}</p> */}
-      <a className="col-span-1 flex justify-center items-center" href="#">
-        {/* // <a className="col-span-1" href="#"> */}
-        <ShoppingCartIcon className="" />
-        {counter > 0 ? (
-          <p className="flex justify-center items-center bg-orange-400 rounded-full w-auto p-1">
-            {counter}
-          </p>
-        ) : (
-          <p className="flex justify-center items-center rounded-full w-6 h-6">
-            {counter}
-          </p>
-        )}
-      </a>
+      <Link
+        className="col-span-1 flex justify-center items-center"
+        to={urls.cart}
+      >
+        <img src={cartIcon} alt="Cart Icon" className="w-6 m-1 text-sky-100" />
+        {itemsInCart()}
+      </Link>
     </div>
   );
 };

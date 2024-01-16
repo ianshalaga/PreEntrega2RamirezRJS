@@ -7,9 +7,10 @@
         "albums": [
             {
                 "id": 1,
-                "name": "Super Battle Sound Attack Soul Edge",
+                "name": "Soul Edge / Blade OST: Super Battle Sound Attack Soul Edge",
                 "image": "super-battle-sound-attack-soul-edge",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Super Battle Sound Attack Soul Edge presenta música de Soul Edge. Fue compuesta por el equipo de sonido de Namco y publicada por Pony Canyon. Su número de catálogo es PCCG-00365.",
                 "songs": [
                     {
@@ -297,9 +298,10 @@
             },
             {
                 "id": 2,
-                "name": "Soul Edge Original Soundtrack - Khan Super Session",
+                "name": "Soul Edge / Blade OST: Soul Edge Original Soundtrack - Khan Super Session",
                 "image": "soul-edge-original-soundtrack-khan-super-session",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Soul Edge Original Soundtrack - Khan Super Session es una banda sonora creada para Soul Edge. Tiene pistas que difieren de la original, pero que no obstante reflejan a cada personaje en la lista de juegos. Fue publicado por BMG Japan Entertainment y compuesto por Bentenmaru (KHAN) (pistas 2, 8, 10 y 16), Taku Iwasaki (pistas 9, 13 y 15), Masumi Ito (pistas 1, 3, 5, 7, 11 y 14), Yoshiyuki Ito (pistas 6 y 12) y Aki Hata (pista 4). Los arreglos fueron realizados por KHAN (pistas 2 y 16), Kazunori Miyake (pista 2), Himeko Yamamoto (pistas 8, 10 y 16), Masumi Ito (pistas 1, 3, 5, 7, 11 y 14), Taku Iwasaki (pistas 9, 13 y 15), Yoshiyuki Ito (pista 6) y Aki Hata (pistas 4 y 12). Su número de catálogo es BVCH-732.",
                 "songs": [
                     {
@@ -530,9 +532,10 @@
             },
             {
                 "id": 3,
-                "name": "Soul Edge ~ The Edge of Soul",
+                "name": "Soul Edge / Blade OST: Soul Edge ~ The Edge of Soul",
                 "image": "soul-edge-the-edge-of-soul",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Contiene dos arreglos de dos canciones del disco 'Soul Edge Original Soundtrack - Khan Super Session' y una de ellas además en versión para karaoke.",
                 "songs": [
                     {
@@ -560,9 +563,10 @@
             },
             {
                 "id": 4,
-                "name": "Gamerip Songs",
+                "name": "Soul Edge / Blade OST: Gamerip Songs",
                 "image": "soul-blade-gamerip",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Pistas especiales extraídas de los datos del juego.",
                 "songs": [
                     {
@@ -1125,10 +1129,11 @@
         "description": "Soulcalibur (ソウルキャリバー Sourukyaribā) es el segundo juego de la serie Soul de juegos de lucha desarrollados y producidos por Namco. Soulcalibur fue adaptado y lanzado para la Sega Dreamcast en 1999 con gráficos mejorados y nuevas características, convirtiéndose en uno de los títulos más vendidos de Dreamcast de todos los tiempos. La adaptación para Sega Dreamcast a menudo se cita como uno de los mejores juegos de lucha de todos los tiempos e incluso uno de los mejores juegos de todos los géneros; está clasificado como el quinto mejor juego de todos los tiempos por el sitio web agregador de reseñas Game Rankings. Tras el primer juego Soul Edge en 1995, la serie Soul recibió una importante renovación y fue renombrada Soulcalibur en 1998. Por lo tanto, Soulcalibur también puede referirse a la serie compuesta por Soulcalibur y sus secuelas posteriores.",
         "albums": [
             {
-                "id": 1,
-                "name": "Disc 1",
+                "id": 5,
+                "name": "Soulcalibur OST: Disc 1",
                 "image": "soulcalibur-disc-1",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Primer disco de la Banda Sonora Original de Soulcalibur. Fue compuesta por Junichi Nakatsuru, Yohihito Yano, Akitaka Tohyama, Takanori Otsuka y Hideki Tobeta. Su número de catálogo es APCG-9006.",
                 "songs": [
                     {
@@ -1527,10 +1532,11 @@
                 ]
             },
             {
-                "id": 2,
-                "name": "Disc 2",
+                "id": 6,
+                "name": "Soulcalibur OST: Disc 2",
                 "image": "soulcalibur-disc-2",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Segundo disco de la Banda Sonora Original de Soulcalibur. Fue compuesta por Junichi Nakatsuru, Yohihito Yano, Akitaka Tohyama, Takanori Otsuka y Hideki Tobeta. Su número de catálogo es APCG-9006.",
                 "songs": [
                     {
@@ -1572,10 +1578,11 @@
         "description": "Soulcalibur II (ソウルキャリバーII Souru Kyaribā Tsū) es un juego de lucha desarrollado y publicado por Namco y la tercera entrega de la serie Soul. Soul Calibur es el nombre de la espada sagrada, creada para luchar contra la maléfica espada Soul Edge, en torno a la cual gira la historia del juego. En comparación con Soulcalibur, Soulcalibur II cuenta con gráficos mejorados e introduce nuevos personajes, escenarios y música. También es el primer juego de la serie que incluye personajes invitados de otras series. Es el comienzo de la trilogía de 1590 A.D.",
         "albums": [
             {
-                "id": 1,
-                "name": "Disc 1",
+                "id": 7,
+                "name": "Soulcalibur II OST: Disc 1",
                 "image": "soulcalibur-ii-disc-1",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Primer disco de la banda sonora de Soulcalibur II. Fue compuesta por Junichi Nakatsuru, Yoshihito Yano, Asuka Sakai, Rio Hamamoto, Ryuichi Takada y Junichi Takagi. Su número de catálogo es SSCX-10086~7.",
                 "songs": [
                     {
@@ -1889,10 +1896,11 @@
                 ]
             },
             {
-                "id": 2,
-                "name": "Disc 2",
+                "id": 8,
+                "name": "Soulcalibur II OST: Disc 2",
                 "image": "soulcalibur-ii-disc-2",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Segundo disco de la banda sonora de Soulcalibur II. Fue compuesta por Junichi Nakatsuru, Yoshihito Yano, Asuka Sakai, Rio Hamamoto, Ryuichi Takada y Junichi Takagi. Su número de catálogo es SSCX-10086~7.",
                 "songs": [
                     {
@@ -2000,10 +2008,11 @@
                 ]
             },
             {
-                "id": 3,
-                "name": "Gamerip Songs",
+                "id": 9,
+                "name": "Soulcalibur II OST: Gamerip Songs",
                 "image": "soulcalibur-ii-gamerip-songs",
-                "price": "USD 100",
+                "price": 100,
+                "stock": 10,
                 "description": "Pistas especiales extraídas de los datos del juego.",
                 "songs": [
                     {

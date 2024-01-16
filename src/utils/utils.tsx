@@ -4,6 +4,9 @@ export const gamesImagesPath = "/images/games/";
 export const albumsImagesPath = "/images/albums/";
 export const imagesExtension = ".webp";
 
+export const albumsCollection = "albums";
+export const ordersCollection = "orders";
+
 interface CharacterData {
   name: string;
 }
@@ -25,18 +28,29 @@ export interface AlbumData {
   id: number;
   name: string;
   image: string;
-  price: string;
+  price: number;
+  stock: number;
   description: string;
   songs: SongData[];
 }
 
 export interface GameData {
-  id: number;
-  game: string;
+  id: string;
   name: string;
   image: string;
   description: string;
   albums: AlbumData[];
+}
+
+export interface ItemData {
+  id: number;
+  name: string;
+  image: string;
+  price: number;
+  stock: number;
+  description: string;
+  songs: SongData[];
+  quantity: number;
 }
 
 /**
